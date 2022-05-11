@@ -2,7 +2,7 @@
   "name": "ladingpage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "express": "^4.18.1"
   },
