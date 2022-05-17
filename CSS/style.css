@@ -10,7 +10,7 @@
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, rgb(214, 93, 214) 16.62%, rgb(0, 233, 175) 85.61%);
+    background: linear-gradient(68.15deg, rgb(214, 119, 174) 16.62%, rgb(177, 137, 137) 85.61%);
 }
 
 .cabecalho {
@@ -41,8 +41,8 @@ body{
 }
 
 .conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid purple ;
+    margin-bottom: 48px;  
+    border-top: 0.4px solid rgb(0, 0, 0) ;
 }
 
 .conteudo-principal {
@@ -105,7 +105,7 @@ body{
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid purple ;
+    border-top: 0.4px solid rgb(0, 0, 0) ;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
@@ -124,7 +124,7 @@ body{
 .rodape { 
     padding: 5px;
     margin-bottom: 48px;
-    border-top: 0.4px solid purple ;
+    border-top: 0.4px solid rgb(0, 0, 0) ;
 }
 
 .rodape-imagem {
