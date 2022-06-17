@@ -143,8 +143,23 @@ body {
         flex-direction: column;
     }
 
+    .cabecalho-imagem {
+        display: none;
+
+    }
     .cabecalho-menu {
-        gap: 10px;
+        
+      padding: 10px;
+      gap: 10px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .cabecalho-menu-item {
+
+        font-size: 15px;
+        flex-wrap: wrap;
+        padding-right: 14px;
     }
 
     .conteudo-principal-escrito, .conteudo-secundario {
@@ -152,4 +167,18 @@ body {
         text-align: center;
     }
 
+    .conteudo-principal-escrito {
+        gap: 0px;
+    }
+    .conteudo-principal-escrito-titulo {
+        padding: 20px;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        margin-top: 0px;
+    }
+
+    .conteudo-principal-escrito-botao {
+        margin-top: 10px;
+    }
 }
