@@ -31,6 +31,7 @@ body{
 .cabecalho-menu {
     display: flex;
     gap: 32px;
+    flex-wrap: wrap
 }
 
 .cabecalho-menu-item {
