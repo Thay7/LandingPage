@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
-@media screen and (max-width: 600px) {
-    .cabecalho, .conteudo-principal {
-      display: flex;
-       flex-direction: column;
-    } 
-    }
 
 * {
     margin: 0;
@@ -139,3 +133,10 @@ body{
     margin: 0 auto;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 600px) {
+    .cabecalho, .conteudo-principal {
+      display: flex;
+       flex-direction: column;
+    } 
+    }
