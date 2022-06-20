@@ -11,6 +11,10 @@
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg, rgb(214, 119, 174) 16.62%, rgb(177, 137, 137) 85.61%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cabecalho {
@@ -19,6 +23,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    border-bottom: 0.3px solid rgb(0, 0, 0);
 }
 
 .cabecalho-imagem {
@@ -31,19 +36,22 @@ body {
 .cabecalho-menu {
     display: flex;
     gap: 32px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
 }
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 18px; 
+
+    
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid rgb(0, 0, 0);
+   
 }
 
 .conteudo-principal {
@@ -106,33 +114,34 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid rgb(0, 0, 0);
-    padding-top: 48px;
+  
+    padding-top: 10px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
     color: black;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .conteudo-secundario-paragrafo {
     font-family: 'Sarala', sans-serif;
     font-weight: 300px;
     font-size: 18px;
-    color: black
+    color: black;
 }
 
 .rodape {
     padding: 5px;
-    margin-bottom: 48px;
-    border-top: 0.4px solid rgb(0, 0, 0);
+    margin-bottom: 5px;
+    border-top: 0.3px solid rgb(0, 0, 0);
 }
 
 .rodape-imagem {
+    
     height: 58px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
+    padding-left: 800px;
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-width: 600px) {
@@ -144,22 +153,15 @@ body {
     }
 
     .cabecalho-imagem {
-        display: none;
-
-    }
-    .cabecalho-menu {
-        
-      padding: 10px;
-      gap: 10px;
-      align-items: center;
-      text-align: center;
+     
+        margin-right: 350px;
+        display: inline;
     }
 
     .cabecalho-menu-item {
 
-        font-size: 15px;
-        flex-wrap: wrap;
-        padding-right: 14px;
+      
+      
     }
 
     .conteudo-principal-escrito, .conteudo-secundario {
