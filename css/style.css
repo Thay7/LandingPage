@@ -131,8 +131,7 @@ body {
 }
 
 .rodape {
-    padding: 24px;
-    margin-bottom: 5px;
+    padding: 32px;
     border-top: 0.3px solid rgb(0, 0, 0);
 }
 
@@ -141,7 +140,7 @@ body {
     height: 48px;
     display: block;
     margin: 0 auto;
-    
+
 }
 
 @media screen and (max-width: 600px) {
