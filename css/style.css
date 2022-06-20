@@ -139,10 +139,10 @@ body {
 .rodape-imagem {
     
     height: 58px;
-    padding-left: 600px;
+    padding-left: 650px;
     margin-top: 30px;
     margin-bottom: 5px;
-    align-items: center;
+
 }
 
 @media screen and (max-width: 600px) {
