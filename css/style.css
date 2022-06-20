@@ -156,6 +156,11 @@ body {
        display: none;
     }
 
+    .cabecalho-menu-item {
+
+        font-size: 12px;
+
+    }
     .conteudo-principal-escrito, .conteudo-secundario {
         align-items: center;
         text-align: center;
