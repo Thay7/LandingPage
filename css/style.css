@@ -153,8 +153,7 @@ body {
 
     .cabecalho-imagem {
      
-        margin-right: 350px;
-        display: inline;
+       display: none;
     }
 
     .conteudo-principal-escrito, .conteudo-secundario {
