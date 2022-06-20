@@ -159,6 +159,7 @@ body {
     .cabecalho-menu-item {
 
         font-size: 12px;
+        display: inline;
 
     }
     .conteudo-principal-escrito, .conteudo-secundario {
