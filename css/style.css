@@ -138,11 +138,10 @@ body {
 
 .rodape-imagem {
     
-    height: 58px;
-    padding-left: 800px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -157,12 +156,6 @@ body {
      
         margin-right: 350px;
         display: inline;
-    }
-
-    .cabecalho-menu-item {
-
-      
-      
     }
 
     .conteudo-principal-escrito, .conteudo-secundario {
